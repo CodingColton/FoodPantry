@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Food Pantry Submission</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="page-header">Wonderful Kitchen</header>
+
+        <h1>New Food Submission</h1>
+        <p>Describe the new food below and submit to our inventory:</p>
+
+        <div class="submit-form">
+            <form action="#">
+                <input type="checkbox" name="refridgerate" id="refrigerate">
+                Refridgerate <br>
+                <input type="checkbox" name="dry-food" id="dry-food">
+                Dry Food <br>
+                <input type="checkbox" name="expired" id="expired">
+                Expired <br><br>
+                <input type="number" name="quantity" id="quantity" 
+                style="width: 35px;" value="1" required> 
+                Quantity <br>
+                <input type="text" placeholder="Food Name..." required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
