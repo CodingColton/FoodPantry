@@ -1,6 +1,7 @@
 body {
     background-color: #D7FCD4;
     color: #30011E;
+    text-align: center;
 }
 
 .page-header {
@@ -11,14 +12,16 @@ body {
     background-color: #B6CCA1;
     border: 12px #B6CCA1 solid;
     border-radius: 2rem;
-    width: min-content;
+    width: center;
     padding: 0px 70px 0px 70px;
     text-align: center;
 }
 
 .submit-form {
-    width: min-content;
-    padding: 0px 70px 0px 0px;
+    width: center;
+    padding-left: 40em;
     background-color: #B6CCA1;
     font-family: sans-serif;
+    text-align: left;
 }
+
