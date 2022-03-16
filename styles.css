@@ -29,8 +29,8 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 31px; /*62px */
-    height: 16px; /*32px */
+    width: 31px;
+    height: 16px;
     display: inline-block;
     position: relative;
     border-radius: 50px;
@@ -48,29 +48,29 @@ body {
     display: block;
     position: absolute;
     z-index: 2;
-    width: 14px; /*28px */
-    height: 14px; /*28px */
+    width: 14px;
+    height: 14px;
     background: #fff;
-    left: 0px; /*2px */
+    left: 1px;
     right: 2px;
-    top: 1px; /*2px */
+    top: 1px; 
     border-radius: 50%;
-    font: 5px/14px Helvetica; /*10px/28px Helvetica */
+    font: 5px/14px Helvetica;
     text-transform: uppercase;
     font-weight: bold;
-    text-indent: -11px; /*-22px */
-    word-spacing: 18px; /*37px */
+    text-indent: -11px;
+    word-spacing: 18px;
     color: #fff;
-    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    text-shadow: -1px -1px rgba(0,0,0,0.15); 
     white-space: nowrap;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    transition: all cubic-bezier(0.2, 1.6, 0.7, 1) 0.2s; /*cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s */
+    transition: all cubic-bezier(0.2, 1.4, 0.7, 1) 0.2s; 
   }
   
   .toggle:checked {
-    background-color: #39b64e; /*4CD964 */
+    background-color: #39b64e; 
   }
   
   .toggle:checked:before {
-    left: 16px; /*32px */
+    left: 16px; 
   }
